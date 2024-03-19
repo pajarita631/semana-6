@@ -1,0 +1,222 @@
+
+/*margen página*/
+#pagina{
+    margin:0%;
+    }
+
+/*GENERALES*/
+
+a:link, a:visited, a:hover, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*Estilos del HEADER*/
+
+/*Título*/
+#portada{
+    background-color: #F4D1B8;
+    padding: 20px;
+    margin: 0px;
+    list-style:none;
+    }
+
+h1{
+      font-family: "Urbanist", sans-serif;
+      font-optical-sizing:auto;
+      font-weight: 900;
+      font-style:normal;
+      color: #706F6F;
+      font-size: 50px;
+    }
+
+/*menu*/
+#menu-index{
+    background-color: #a5db9d;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    margin: 0px;
+    list-style:none;
+    }
+
+.link-menu:hover{
+    color: #000000;
+    font-weight: 900;
+    font-size:20px;
+}
+
+/*dropdown*/
+.dropdown-menu{
+    background-color: rgb(197, 197, 197);
+    color: #000000;
+}
+
+.dropdown-toggle{
+    background-color: #706F6F;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 18px;
+    color: #f8eee6;
+    }
+
+.dropdown-item:hover {
+    background-color: #F4D1B8;
+    color: #000000;
+    font-weight: 900;
+    font-size:20px;
+    }
+
+.dropdown-item:visited {
+    text-decoration: none;
+    color: #000000;
+    }
+
+.dropdown-item:link {
+    text-decoration: none;
+    color: #000000;
+    }
+
+/*ESTILOS MAIN*/
+
+/*inicio de sesión*/
+#inicio-sesion{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+  }
+
+.principal{
+    background-color: #f8eee6;
+    margin: 0%;
+    padding: 20px;
+    }
+
+/*títulos*/
+h2{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 800;
+    font-style:normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+/*menú comunidad*/
+h3{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+/*formulario comunidad*/
+#formulario{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+/*párrafos*/
+ p{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 18px;
+    color: #706F6F
+ }
+
+ /*botones*/
+ .button:hover{
+    background-color: #F4D1B8;
+    color: #000000;
+    font-weight: 900;
+    font-size:20px;
+ }
+
+ /*listas en index*/
+ .listas-main-index{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 16px;
+    color: #706F6F;    
+}
+
+ /*listas en comunidad*/
+ .listas-main-comunidad{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 16px;
+    color: #706F6F;    
+}
+
+/*botones*/
+.botones{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 16px;
+    padding: 50px;
+    margin:0px;
+    }
+
+/*checkbox*/
+
+#mycheckbox{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/*ESTILO FOOTER*/
+
+.pie-pagina{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 15px;
+    color: black;
+    background-color: #F4D1B8;
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+}
+
+#link-pie-pagina:visited, #link-pie-pagina:link, #link-pie-pagina:active{
+    color: #000000;
+    text-decoration: none;
+    }
+
+
+#link-pie-pagina:hover{
+    color: #000000;
+    font-weight: 900;
+    font-size:20px;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body id="pagina">
+    <header>
+
+        <!--logo + nombre web-->
+        <section  id="portada" >
+            <ul style="list-style: none;">
+                <li>
+                    <!--logo margen izquierdo-->
+                    <img src="../images/mi-mascota-logo.jpg" alt="Logo Mi Mascota">
+                </li>
+                <li>
+                    <!--título centrado-->
+                    <h1>MI MASCOTA 
+                    </h1>
+                </li>
+            </ul>
+        </section>
+
+        <!--menú-->
+        <section id="menu-index" >
+            <nav>
+                <ul style="list-style: none;">
+                    <li>
+                        <a href="../index.html" class="link-menu">Home</a>
+                    </li>
+                    <li>
+                        <a href="cuenta.html" class="link-menu">Cuenta</a>
+                    </li>                    
+                </ul>
+            </nav>
+
+            <!--Dropdown Bootstrap-->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <button class="dropdown-item" type="button">
+                            <a href="../index.html" >
+                            Home
+                            </a>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item" type="button">
+                            <a href="cuenta.html" >
+                            Cuenta
+                            </a>
+                        </button>
+                    </li>
+                </ul>
+              </div>
+        </section>                
+    </header>
+
+    <main >
+        <section class="principal">
+            <section id="origen" >
+                <h2>Queremos ayudarte</h2>
+                <p>
+                    Te cuento mi experiencia. Hace un tiempo mi gato se enfermó repentinamente y luego de unos meses falleció. En poco tiempo tuve que aprender a dar inyecciones, utilizar sueros y diferenciar agujas. Hacer todo esto implicó aprender a manipularlo con suavidad y generar un espacio tranquilo para atender sus necesidades.
+                    Para poder acompañarlo en sus últimos momentos necesité centrarme en el momento y en lo que podía hacer.
+                </p>
+                <p>
+                    Queremos ayudarte a cuidar a tu mascota de la mejor manera posible. Por eso, hemos recopilado una serie de videos informativos que abordan temas cruciales para la salud y el bienestar de tus queridos compañeros peludos. Estos videos, disponibles en YouTube, te proporcionarán valiosa información sobre cómo mantener a tus mascotas felices y saludables. Desde consejos de alimentación hasta ejercicios adecuados, estos recursos te ayudarán a tomar decisiones informadas para el cuidado de tus amigos de cuatro patas. ¡Explora los videos y aprende más sobre cómo brindarles una vida plena y saludable! 
+                </p>
+                <h3>
+                    <nav>   
+                        <ul>
+                            <li>
+                                <a href="#Perros" class="link-menu">Ayuda para perros</a>
+                            </li>
+                            <li>
+                                <a href="#Gatos" class="link-menu">Ayuda para gato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </h3>
+                
+                <p>
+                    También queremos escucharte. Contanos tus experiencias con tu amigo de cuatro patas. Esperamos que también nos des también una opinión sobre este espacio para ayudarte a gestionar su salud. Queremos saber que otra información querés agregar y cual información crees que quizás esté de más
+                </p>
+                <h3>
+                    <a href="#comentarios" class="link-menu">Comentar</a>
+                </h3>
+            </section>
+            
+
+            <!--Videos incrustados de youtube-->
+            
+            <section id="Perros" >
+                <h2>
+                    AYUDA PARA PERROS
+                </h2>
+                <ul class="listas-main-comunidad">
+                    <li >
+                        <a href="#alimentacion perros" class="link-menu">Alimentación</a>
+                    </li>              
+                    <li >
+                        <a href="#medicacion perros" class="link-menu">Aplicar medicación</a>
+                    </li> 
+                    <li >
+                        <a href="#relajar perros" class="link-menu">Alivio del estrés</a>
+                    </li> 
+                </ul>
+                <section id="alimentacion perros" >
+                    <h2>Alimentación </h2>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P8JyNuYSAWM?si=WKVxYS0G1GkW4DMG&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dllFYjci7HQ?si=j3tbMc6GlbPlsPY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#Perros" class="link-menu">Volver al menú</a>
+                            <a href="#origen" class="link-menu">Inicio</a>
+                        </h3>
+                    </div>
+                </section>
+                <section id="medicacion perros"  >
+                    <h2>Aplicar medicación</h2>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qX1i5kTBCA8?si=fXFdxGLAAANmyMVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wwnWYWnvcOA?si=qRsqY61_WQ67t6wB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#Perros" class="link-menu">Volver al menú</a>
+                            <a href="#origen" class="link-menu">Inicio</a>
+                        </h3>
+                    </div>
+                </section>
+                <section id="relajar perros" style="margin-top: 20px">
+                    <h2>Alivio del estrés</h2>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gt-StuJ6ZyY?si=6rO_kIWJysM18K_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/h2WUuNsbv8U?si=wbiDtXxQzHcADqyJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#Perros" class="link-menu">Volver al menú</a>
+                            <a href="#origen" class="link-menu">Inicio</a>
+                        </h3>
+                    </div>
+                </section>
+            </section>
+            <section id="Gatos" >
+                <h2>
+                    AYUDA PARA GATOS
+                </h2>
+                <ul class="listas-main-comunidad">
+                    <li >
+                        <a href="#alimentacion gatos" class="link-menu">Alimentación</a>
+                    </li>    
+                    <li >
+                        <a href="#medicacion gatos" class="link-menu">Aplicar medicación</a>
+                    </li> 
+                    <li >
+                        <a href="#relajar gatos" class="link-menu">Alivio del estrés</a>
+                    </li>                         
+                </ul>
+                <section id="alimentacion gatos">
+                    <h2>Alimentación</h2>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9f4Q7chLvMM?si=zhYEABvdEUBLzHNZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VrCKWxS8BqY?si=FuLvTR0JILboNyjD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#Gatos" class="link-menu">Volver al menú</a>
+                            <a href="#origen" class="link-menu">Inicio</a>
+                        </h3>
+                    </div>
+                </section>
+                <section id="medicacion gatos">
+                    <h2>Aplicar medicacióno</h2>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WbffUJFtHKk?si=-1Ijw4hl4Y13ZJFL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/piiKfEPT2uY?si=t6damvI_OIw9X1HN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#Gatos" class="link-menu">Volver al menú</a>
+                            <a href="#origen" class="link-menu">Inicio</a>
+                        </h3>
+                    </div>
+                </section>
+                <section id="relajar gatos">
+                    <h2>Alivio de estrés</h2>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Jec-zbHjTwM?si=zpqO2Pa0ocTSxiqt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                         <iframe width="560" height="315" src="https://www.youtube.com/embed/jXScYaBAU8M?si=E8Bpc_7eHnKBJ6EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#Gatos" class="link-menu" >Volver al menú</a>
+                            <a href="#origen" class="link-menu">Inicio</a>
+                        </h3>
+                    </div>
+                </section>
+                
+            </section>
+            
+            <section id="comentarios" >
+                <h2>Te escuchamos</h2>
+                <section id="formulario">
+                    <form action="form1.php" method="post">
+                    
+                        <label for="">Cuenta</label>
+                        <input type="email" name="" id="" >
+                    
+                        <h3>Comentarios</h3>
+                        <textarea name="" id="" cols="30" rows="10">
+                        </textarea>
+                        <input type="submit" value="Enviar" class="button"> 
+                    </form>
+                    
+                    <a href="#origen" class="link-menu">Inicio</a>
+
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <footer >
+        <section class="pie-pagina">
+            <nave>
+                <ul style="list-style: none;">
+                    <li>
+                        <a id="link-pie-pagina">Contactenos</a>
+                    </li>
+                    <li>
+                        <a id="link-pie-pagina">Mapa de Sitio</a>
+                    </li>
+                    <li>
+                        <a id="link-pie-pagina">Terminos y Condiciones</a>
+                    </li>                        
+                </ulr>
+            </nav>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
